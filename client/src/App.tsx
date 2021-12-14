@@ -57,7 +57,7 @@ function App() {
     
       <div className="report">
         <div className='report-inner'>
-          <h3>금전 피해를 입으셨나요?</h3>
+          <h2>금전 피해를 입으셨나요?</h2>
           <p>혹시라도 토스에서 금전 피해를 입으셨다면 신고해주세요. 앞으로 고객님이 안심하고 토스를 쓰실 수 있도록, 토스의 잘못이 아니라도 피해 금액을 보상해드려요.</p>
         
           <div className="report-btns">
@@ -71,14 +71,14 @@ function App() {
       </div>
 
       <div className="third-box">
-        <h3>토스 안심보상제를 알려드릴게요</h3>
+        <h2>토스 안심보상제를 알려드릴게요</h2>
         <p>사칭, 보이스피싱 또는 중고거래 피해를 입으셨나요? <br/>
         너무 걱정하지 마세요. 토스 안심보상제가 있어요.</p>
         <Button width={100}>더 알아보기</Button>
       </div>
 
       <div className="help-box">
-        <h3>무엇을 도와드릴까요? </h3>
+        <h2>무엇을 도와드릴까요? </h2>
 
         <ul>
           <li><Button width={600}>토스뱅크 통장 금리 변경 안내 </Button></li>
@@ -89,8 +89,8 @@ function App() {
       </div>
 
       <div className="otherHelp-box">
-        <h4>문제가 아직 해결되지 않았다면 <br/>
-        언제든 연락해주세요</h4>
+        <h3>문제가 아직 해결되지 않았다면 <br/>
+        언제든 연락해주세요</h3>
         <p>24시간 토스 고객센터 1599-4905</p>
       </div>
 
