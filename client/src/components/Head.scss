@@ -1,0 +1,39 @@
+
+.header-wrap {
+    width: 100%;
+    background-color: #eef6f3;
+
+    .head-container{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    header {
+        max-width: 1140px;
+        margin: 0 auto;
+        height: 50px;
+        display: flex;
+        align-items: center;
+
+        .toss-logo {
+            width: 100px;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            max-height: 100%;
+            justify-content: flex-end;
+            flex: 1;
+            align-items: center;
+
+            li {
+                margin-left: 20px;
+                padding: 10px 12px;
+                align-items: center;
+                font-size: 15px;
+            }
+        }
+    }
+
+
+}

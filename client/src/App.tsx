@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Button from './prop/button';
+import Header from './components/Head';
+import Topmain from './components/Topmain';
 
 function App() {
   const alarm = () => {
@@ -21,39 +22,9 @@ function App() {
     // </div>
 
     <div>
-      
-      <header> 
-        <span>고객센터</span>
-        <ul>
-          <li>자주 묻는 질문</li>
-          <li>피해 사건 신고</li>
-          <li>토스의 보안</li>
-        </ul>  
-      </header>
-
-      <div className="topmain">
-        <div className="topmain-inner">
-          <h1>토스 고객센터에서 <br/>
-          24시간 상담받을 수 있어요!</h1>
-
-          <div className="tel-box">
-            <div>
-              <p>피해·사기 상담</p>
-              <h4>1661-4905</h4>
-            </div>
-            <div className='line'></div>
-            <div>
-              <p>일반 상담</p>
-              <h4>1599-4905</h4>
-            </div>
-          </div>
-
-          <div className='waiting'> 현재 상담대기 <span>보통</span></div>
-          <div className='img-box'>            
-            <img src={'https://core-cdn-fe.toss.im/image/optimize/?src=https://static.toss.im/3d/appcards-call-hand.png?&w=1920&q=75'} />
-          </div>
-        </div>
-      </div>
+      <Header></Header>
+      <Topmain></Topmain>
+     
     
       <div className="report">
         <div className='report-inner'>
@@ -74,16 +45,16 @@ function App() {
         <h2>토스 안심보상제를 알려드릴게요</h2>
         <p>사칭, 보이스피싱 또는 중고거래 피해를 입으셨나요? <br/>
         너무 걱정하지 마세요. 토스 안심보상제가 있어요.</p>
-        <Button width={100}>더 알아보기</Button>
+        <button>더 알아보기</button>
       </div>
 
       <div className="help-box">
         <h2>무엇을 도와드릴까요? </h2>
 
         <ul>
-          <li><Button width={600}>토스뱅크 통장 금리 변경 안내 </Button></li>
-          <li><Button width={600}>토스유스카드 어떻게 사용하나요? </Button></li>
-          <li><Button width={600}>토스유스카드 얼마나 쓸 수 있나요? </Button></li>
+          <li><button>토스뱅크 통장 금리 변경 안내 </button></li>
+          <li><button>토스유스카드 어떻게 사용하나요? </button></li>
+          <li><button>토스유스카드 얼마나 쓸 수 있나요? </button></li>
         </ul>
         자주 묻는 질문 전체보기
       </div>
