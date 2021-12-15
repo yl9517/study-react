@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Head';
 import Topmain from './components/Topmain';
+import ReportBox from './components/ReportBox';
+import Relief from './components/Relief';
 
 function App() {
   const alarm = () => {
@@ -24,29 +26,8 @@ function App() {
     <div>
       <Header></Header>
       <Topmain></Topmain>
-     
-    
-      <div className="report">
-        <div className='report-inner'>
-          <h2>금전 피해를 입으셨나요?</h2>
-          <p>혹시라도 토스에서 금전 피해를 입으셨다면 신고해주세요. 앞으로 고객님이 안심하고 토스를 쓰실 수 있도록, 토스의 잘못이 아니라도 피해 금액을 보상해드려요.</p>
-        
-          <div className="report-btns">
-            <button>토스 계정을 잠시 잠그고 싶어요</button>
-            <button>명의 도용 신고</button>
-            <button>보이스피싱 신고</button>
-            <button>휴대폰 불법개통 신고</button>
-            <button>중고거래 사기 신고</button>
-          </div>
-        </div>
-      </div>
-
-      <div className="third-box">
-        <h2>토스 안심보상제를 알려드릴게요</h2>
-        <p>사칭, 보이스피싱 또는 중고거래 피해를 입으셨나요? <br/>
-        너무 걱정하지 마세요. 토스 안심보상제가 있어요.</p>
-        <button>더 알아보기</button>
-      </div>
+      <ReportBox></ReportBox>
+      <Relief></Relief>
 
       <div className="help-box">
         <h2>무엇을 도와드릴까요? </h2>

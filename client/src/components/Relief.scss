@@ -1,0 +1,17 @@
+.relief-wrap{
+    width: 100%;
+    background-color: #f5f6f8;
+
+    .relief-inner{
+        max-width: 690px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        img{
+            width: 520px;
+            position: absolute;
+        }
+    }
+
+}

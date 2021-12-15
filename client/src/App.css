@@ -51,57 +51,7 @@
   font-family: 'Toss Font';
 }
 
-/*top main*/
-.topmain{
-  width: 100%;
-  max-height:840px;
-  background-color: #eef6f3;
-  text-align: center;
-}
-.topmain-inner{
-  margin: 0 auto;
-  width: 92%;
-}
-.topmain h1{
-  padding: 110px 0 50px;
-}
-
-.tel-box{
-  display: flex;
-  justify-content: center;
-}
-.line{
-  height: 54px;
-  width: 1px;
-  margin: 0 18px;
-  background-color: rgba(0, 27, 55, 0.1);
-}
-.waiting{
-  display: inline-block;
-  margin: 30px 0 0;
-  padding: 10px 20px;
-  background-color: rgba(54, 103, 168, 0.06);;
-  border-radius: 20px;
-}
-
-.img-box{
-  max-width: 650px;
-  margin: 0 auto;
-}
-.img-box img{
-  width: 100%;
-}
-
-/*report*/
-.report{
-  width: 100%;
-  text-align: center;
-}
-.report-inner{
-  width: 92%;
-  margin: 80px auto;
-}
-h2{
+h2 {
   margin-bottom: 20px;
   font-size: 200%;
 }
