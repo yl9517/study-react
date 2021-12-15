@@ -14,11 +14,11 @@ export default function ReportBox() {
 				<p>혹시라도 토스에서 금전 피해를 입으셨다면 신고해주세요. 앞으로 고객님이 안심하고 토스를 쓰실 수 있도록, 토스의 잘못이 아니라도 피해 금액을 보상해드려요.</p>
 			
 				<div className="report-btns">
-					<button> <span><img src={lock}/></span><span>토스 계정을 잠시 잠그고 싶어요</span></button>
-					<button className='secondBtn'> <span><img src={report2}/></span> <span>명의 도용 신고</span></button>
-					<button className='secondBtn'> <span><img src={report3}/></span> <span>보이스피싱 신고</span></button>
-					<button className='secondBtn'> <span><img src={report4}/></span> <span>휴대폰 불법개통 신고</span></button>
-					<button className='secondBtn'> <span><img src={report5}/></span> <span>중고거래 사기 신고</span></button>
+					<div> <span><img src={lock}/></span><span className='label'>토스 계정을 잠시 잠그고 싶어요</span></div>
+					<div className='secondBtn'> <span><img src={report2}/></span> <span className='label'>명의 도용 신고</span></div>
+					<div className='secondBtn'> <span><img src={report3}/></span> <span className='label'>보이스피싱 신고</span></div>
+					<div className='secondBtn'> <span><img src={report4}/></span> <span className='label'>휴대폰 불법개통 신고</span></div>
+					<div className='secondBtn'> <span><img src={report5}/></span> <span className='label'>중고거래 사기 신고</span></div>
 				</div>
 			</div>
 		</div>

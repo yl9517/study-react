@@ -1,8 +1,7 @@
-
 .header-wrap {
-    // width: 100%;
-    // background-color: #eef6f3;
-
+        width: 100%;
+        background-color: #eef6f3;
+        transition: background-color 0.5s;
     header {
         max-width: 1140px;
         width: 100%;
@@ -14,7 +13,18 @@
 
         .toss-logo {
             width: 100px;
+            cursor: pointer;
         }
+        .find{
+            width: 17px;
+            height: 17px;
+            margin-top: 4px;
+        }
+    }
+
+}
+@media screen and (min-width:661px){
+
         ul {
             list-style: none;
             display: flex;
@@ -28,9 +38,26 @@
                 padding: 10px 12px;
                 align-items: center;
                 font-size: 15px;
+                border-radius: 8px;
+                cursor: pointer;
+
+            
+            }
+            li:hover{
+                background-color: #e2e2e2;
+                
             }
         }
-    }
+    
+}
 
+@media screen and (max-width:660px){
 
+}
+.scroll{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid #cacaca;
+    transition: background-color 0.5s;
 }

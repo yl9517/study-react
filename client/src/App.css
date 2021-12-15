@@ -38,20 +38,21 @@
     transform: rotate(360deg);
   }
 } */
-@font-face {
-  font-family: 'Toss Font';
-  font-style: normal;
-  font-weight: normal;
-  src: url("./styles/font/112.woff2")format('woff2');
-}
+
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Toss Font';
 }
-
-h2 {
+body{
+  font-family: Toss Font, "Malgun Gothic", "굴림", "Gulim", "Arial";
+}
+@font-face {
+  font-family: Toss Font;
+  src: url(./styles/font/112.woff2) format("woff2");
+}
+h2{
   margin-bottom: 20px;
   font-size: 200%;
 }

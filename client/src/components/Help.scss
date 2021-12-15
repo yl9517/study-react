@@ -1,0 +1,51 @@
+.help-wrap{
+    width: 100%;
+    
+    .help-inner{
+        max-width: 690px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 80px 0;
+
+        
+        input{
+            width: 95%;
+            background-color: #fafafa;
+            border:0px;
+            padding: 16px 18px 16px 60px;
+            border-radius: 8px;
+            flex-grow: 1;
+            font-size: 16px;
+            margin: 10px 0 30px 16px;
+        }
+        ul{
+            list-style: none;
+
+            li{
+                display: flex;
+                padding: 13px 16px 13px 25px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                color: var(--adaptiveGrey700);
+                text-decoration: none;
+                margin: 30px 0;
+                border-radius: 8px;
+            }
+            li:hover{
+                background-color: #f1f1f1;
+            }
+            li::before {
+                display: block;
+                margin-right: 16px;
+                font-weight: 700;
+                content: "Q";
+                color: rgb(179, 179, 179);
+            }
+        }
+
+    }
+
+
+}

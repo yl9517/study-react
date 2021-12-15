@@ -1,21 +1,40 @@
 
-.topmain{
-    width: 100%;
-    max-height:840px;
-    background-color: #eef6f3;
-    text-align: center;
-  }
+@media screen and (min-width:661px){
   .topmain-inner{
     margin: 0 auto;
     width: 92%;
+    min-height: 920px;
   }
   .topmain h1{
     padding: 110px 0 50px;
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width:660px){
+  .topmain-inner{
+    min-height: 556px;
+  }
+  .topmain h1{
+    padding: 10% 0 50px;
+    font-size: 32px;
+
+  }
+}
+.topmain{
+    width: 100%;
+    background-color: #eef6f3;
+    text-align: center;
   }
   
   .tel-box{
     display: flex;
     justify-content: center;
+
+    h4{
+      font-size: 26px;
+      margin-top: 3px;
+    }
   }
   .line{
     height: 54px;
@@ -25,7 +44,7 @@
   }
   .waiting{
     display: inline-block;
-    margin: 30px 0 0;
+    margin-top: 50px;
     padding: 10px 20px;
     background-color: rgba(54, 103, 168, 0.06);;
     border-radius: 20px;

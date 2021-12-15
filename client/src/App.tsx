@@ -5,6 +5,8 @@ import Header from './components/Head';
 import Topmain from './components/Topmain';
 import ReportBox from './components/ReportBox';
 import Relief from './components/Relief';
+import Help from './components/Help';
+import Call from './components/Call';
 
 function App() {
   const alarm = () => {
@@ -28,23 +30,8 @@ function App() {
       <Topmain></Topmain>
       <ReportBox></ReportBox>
       <Relief></Relief>
-
-      <div className="help-box">
-        <h2>무엇을 도와드릴까요? </h2>
-
-        <ul>
-          <li><button>토스뱅크 통장 금리 변경 안내 </button></li>
-          <li><button>토스유스카드 어떻게 사용하나요? </button></li>
-          <li><button>토스유스카드 얼마나 쓸 수 있나요? </button></li>
-        </ul>
-        자주 묻는 질문 전체보기
-      </div>
-
-      <div className="otherHelp-box">
-        <h3>문제가 아직 해결되지 않았다면 <br/>
-        언제든 연락해주세요</h3>
-        <p>24시간 토스 고객센터 1599-4905</p>
-      </div>
+      <Help></Help>
+      <Call></Call>
 
       <div className="bottom-box">
         <ul>
